@@ -6,11 +6,12 @@
         "src/index.ts",
         "src/typings"
     ],
-    "darkHighlightTheme": "material-theme-palenight",
-    "lightHighlightTheme": "material-theme-palenight",
+    "entryPointStrategy": "expand",
+    "darkHighlightTheme": "night-owl",
+    "lightHighlightTheme": "night-owl",
     "githubPages": true,
     "excludeExternals": false,
-    "excludePrivate": true,
+    "excludePrivate": false,
     "excludeInternal": false,
     "theme": "default"
 }

@@ -1,24 +1,24 @@
 :root {
-    --light-hl-0: #FFCB6B;
-    --dark-hl-0: #FFCB6B;
-    --light-hl-1: #BABED8;
-    --dark-hl-1: #BABED8;
-    --light-hl-2: #C3E88D;
-    --dark-hl-2: #C3E88D;
-    --light-hl-3: #89DDFF;
-    --dark-hl-3: #89DDFF;
-    --light-hl-4: #F07178;
-    --dark-hl-4: #F07178;
-    --light-hl-5: #676E95;
-    --dark-hl-5: #676E95;
-    --light-hl-6: #C792EA;
-    --dark-hl-6: #C792EA;
-    --light-hl-7: #82AAFF;
-    --dark-hl-7: #82AAFF;
-    --light-hl-8: #FF9CAC;
-    --dark-hl-8: #FF9CAC;
-    --light-code-background: #292D3E;
-    --dark-code-background: #292D3E;
+    --light-hl-0: #82AAFF;
+    --dark-hl-0: #82AAFF;
+    --light-hl-1: #D6DEEB;
+    --dark-hl-1: #D6DEEB;
+    --light-hl-2: #ECC48D;
+    --dark-hl-2: #ECC48D;
+    --light-hl-3: #C792EA;
+    --dark-hl-3: #C792EA;
+    --light-hl-4: #D9F5DD;
+    --dark-hl-4: #D9F5DD;
+    --light-hl-5: #637777;
+    --dark-hl-5: #637777;
+    --light-hl-6: #7FDBCA;
+    --dark-hl-6: #7FDBCA;
+    --light-hl-7: #FF5874;
+    --dark-hl-7: #FF5874;
+    --light-hl-8: #C5E478;
+    --dark-hl-8: #C5E478;
+    --light-code-background: #011627;
+    --dark-code-background: #011627;
 }
 
 @media (prefers-color-scheme: light) { :root {

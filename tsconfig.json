@@ -5,6 +5,7 @@
         "lib": [
             "ESNext"
         ],
+        "baseUrl": ".",
         "outDir": "./dist",
         "rootDir": "./src",
         "moduleResolution": "node",
@@ -32,6 +33,7 @@
         "dist"
     ],
     "include": [
-        "src/**/*"
+        "src/**/*",
+        "src/typings"
     ]
 }
