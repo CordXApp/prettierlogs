@@ -1,5 +1,5 @@
 {
-    "name": "prettierlogs",
+    "name": "@cordxapp/prettierlogs",
     "version": "0.0.1",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -13,6 +13,9 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/CordXApp/prettierlogs.git"
+    },
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
     },
     "keywords": [
         "prettier",

@@ -10,17 +10,17 @@ Install the module using your preferred package manager
 
 ### NPM
 ```sh
-npm install prettierlogs
+npm install @cordxapp/prettierlogs
 ```
 
 ### Yarn
 ```sh
-yarn install prettierlogs
+yarn install @cordxapp/prettierlogs
 ```
 
 ### Bun
 ```sh
-bun install prettierlogs
+bun install @cordxapp/prettierlogs
 ```
 
 ---
@@ -29,7 +29,7 @@ bun install prettierlogs
 
 ### Importing the Logger
 ```ts
-import { prettier } from 'prettierlogs'
+import { prettier } from '@cordxapp/prettierlogs'
 ```
 
 ### Creating a Logger Instance
@@ -103,7 +103,7 @@ type LogLevel = 'info' | 'warn' | 'error' | 'ready' | 'debug';
 ## Example
 
 ```ts
-import { prettier } from 'prettierlogs';
+import { prettier } from '@cordxapp/prettierlogs';
 
 const logs = new prettier('MyApp', 'debug', { path: 'app.log', enabled: true });
 
