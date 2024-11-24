@@ -1,0 +1,16 @@
+node_modules/
+docs/
+logs/
+*.log
+
+bun.lockb
+
+!dist/
+.eslintrc
+.gitattributes
+.gitignore
+.github/
+.vscode/
+package-lock.json
+CHANGELOG.md
+./CHANGELOG.md

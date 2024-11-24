@@ -1,0 +1,16 @@
+{
+    "out": "./docs/",
+    "name": "Prettier Logs",
+    "readme": "./README.md",
+    "entryPoints": [
+        "src/index.ts",
+        "src/typings"
+    ],
+    "darkHighlightTheme": "material-theme-palenight",
+    "lightHighlightTheme": "material-theme-palenight",
+    "githubPages": true,
+    "excludeExternals": false,
+    "excludePrivate": true,
+    "excludeInternal": false,
+    "theme": "default"
+}
