@@ -1,5 +1,5 @@
 {
-    "name": "@cordxapp/prettierlogs",
+    "name": "prettierlogs",
     "version": "0.0.1",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
@@ -14,9 +14,6 @@
         "type": "git",
         "url": "git+https://github.com/CordXApp/prettierlogs.git"
     },
-    "publishConfig": {
-        "registry": "https://npm.pkg.github.com"
-    },
     "keywords": [
         "prettier",
         "console",
@@ -26,7 +23,8 @@
     ],
     "scripts": {
         "build:client": "tsc",
-        "build:typedocs": "typedoc"
+        "build:typedocs": "typedoc",
+        "prepublishOnly": "npm run build:client"
     },
     "devDependencies": {
         "@types/moment": "^2.13.0",
